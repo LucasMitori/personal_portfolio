@@ -37,7 +37,7 @@ export const Header = styled.header`
   @media screen and (min-width: 1024px) {
     transform: none;
     width: 100%;
-    height: 180px;
+    height: 160px;
     position: fixed;
     top: 0;
     bottom: 0;
