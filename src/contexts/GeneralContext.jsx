@@ -79,7 +79,6 @@ const GeneralProvider = ({ children }) => {
   }
 
   /*-------------------- Skip line --------------------*/
-  /*-------------------- Skip line --------------------*/
 
   return (
     <>
