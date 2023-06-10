@@ -18,8 +18,9 @@ export const ShowcaseSpace = styled.main`
   height: 100vh;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  position: relative;
   background-color: var(--color-navigation);
   z-index: 1001;
   box-shadow: 0px 0px 14px 25px var(--color-senary);
@@ -48,6 +49,7 @@ export const ShowcaseSpace = styled.main`
   @media screen and (min-width: 1024px) {
   }
   @media screen and (min-width: 1200px) {
+    height: 130vh;
   }
   @media screen and (max-width: 1920px) {
   }
@@ -56,7 +58,7 @@ export const ShowcaseSpace = styled.main`
 /*------------------------- Skip line -------------------------*/
 
 export const UlSkills = styled.ul`
-  width: 90%;
+  width: 95%;
   height: 80vh;
   margin: 30px auto;
   overflow: auto;
@@ -65,6 +67,7 @@ export const UlSkills = styled.ul`
   justify-content: space-evenly;
   align-items: center;
   padding: 20px 0px;
+  z-index: 1001;
 
   ::-webkit-scrollbar-track {
     border: 5px solid var(--color-white-mode);
@@ -131,12 +134,8 @@ export const UlSkills = styled.ul`
     }
   }
   @media screen and (min-width: 1024px) {
-    margin: 150px auto;
-    height: 65vh;
-    & > li {
-      margin-right: 20px;
-      margin-bottom: 10px;
-    }
+    margin: 0 auto;
+    height: 120vh;
   }
   @media screen and (min-width: 1200px) {
     padding: 30px;

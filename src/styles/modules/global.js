@@ -126,6 +126,8 @@ const GlobalStyle = createGlobalStyle`
 
 
     /*  Text Weight */
+    --font-weight-900: 900;
+    --font-weight-800: 800;
     --font-weight-700: 700;
     --font-weight-600: 600;
     --font-weight-500: 500;

@@ -110,6 +110,7 @@ export const ContactSection = styled.section`
   background-color: var(--color-navigation);
   z-index: -1;
   box-shadow: 0px 0px 14px 25px var(--color-senary);
+  position: relative;
 
   @media screen and (min-width: 480px) {
   }
@@ -118,6 +119,7 @@ export const ContactSection = styled.section`
   @media screen and (min-width: 900px) {
   }
   @media screen and (min-width: 1024px) {
+    flex-flow: row nowrap;
   }
   @media screen and (min-width: 1200px) {
   }

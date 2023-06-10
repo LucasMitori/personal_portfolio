@@ -16,6 +16,7 @@ import * as yup from "yup";
 import { GeneralContext } from "../../contexts/GeneralContext";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
+import DnaAnimation from "../Animations/DnaAnimation/DnaAnimation";
 
 const ContactSpace = () => {
   const [animationValueContact, setAnimationValueContact] = useState();
@@ -54,6 +55,7 @@ const ContactSpace = () => {
   return (
     <>
       <ContactSection id="section-contactme">
+        <DnaAnimation />
         <ContentDiv>
           <CubesDiv />
           <CubesDiv />
