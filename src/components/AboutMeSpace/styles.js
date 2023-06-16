@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import PersonalImage from "../../assets/personal/image03.jpeg";
+import PersonalImage from "../../assets/img/random.gif";
 import Forest from "../../assets/img/forest.gif";
 import styled, { keyframes } from "styled-components";
 
@@ -313,7 +313,7 @@ export const SecondSection = styled.div`
   }
 
   .mySwiper {
-    width: 100%;
+    width: 90%;
     height: 40vh;
     background-color: var(--color-primary);
   }
@@ -323,6 +323,7 @@ export const SecondSection = styled.div`
   @media screen and (min-width: 600px) {
   }
   @media screen and (min-width: 768px) {
+    width: 30%;
   }
   @media screen and (min-width: 1024px) {
     width: 60%;
@@ -363,9 +364,9 @@ export const ValueImgSpace = styled.div`
   @media screen and (min-width: 768px) {
   }
   @media screen and (min-width: 1024px) {
-    justify-content: space-evenly;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1300px) {
+    justify-content: space-evenly;
   }
   @media screen and (min-width: 1920px) {
   }

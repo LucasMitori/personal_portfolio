@@ -28,10 +28,10 @@ import "swiper/css";
 import "swiper/css/scrollbar";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-import banner01 from "../../assets/img/main_background_05.jpg";
-import banner02 from "../../assets/img/main_background_06.jpg";
-import banner03 from "../../assets/img/main_background_07.jpg";
-import banner04 from "../../assets/img/main_background_08.jpg";
+import banner01 from "../../assets/img/tech_01.gif";
+import banner02 from "../../assets/img/tech_02.gif";
+import banner03 from "../../assets/img/tech_03.gif";
+import banner04 from "../../assets/img/tech_01.gif";
 // import banner05 from "../../../assets/img/main_background_09.jpg";
 import mainPhoto01 from "../../assets/img/akshan.gif";
 import mainPhoto02 from "../../assets/img/viktor.gif";
@@ -199,11 +199,6 @@ const AboutMeSpace = ({ show, setShow }) => {
             <SwiperSlide>
               <SwiperImgDiv>
                 <img src={banner03} alt="#" />
-              </SwiperImgDiv>
-            </SwiperSlide>
-            <SwiperSlide>
-              <SwiperImgDiv>
-                <img src={banner04} alt="#" />
               </SwiperImgDiv>
             </SwiperSlide>
           </Swiper>
