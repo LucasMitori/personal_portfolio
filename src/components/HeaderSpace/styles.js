@@ -157,7 +157,7 @@ export const NavBar = styled.nav`
     flex-flow: row nowrap;
     justify-content: space-evenly;
     align-items: center;
-    width: 60%;
+    width: 50%;
   }
   @media screen and (min-width: 1200px) {
   }

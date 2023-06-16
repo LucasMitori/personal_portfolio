@@ -2,10 +2,14 @@ import { IconContext } from "react-icons";
 import {
   ArticleCard,
   ArticleCardText,
+  Bg01,
+  Bg02,
+  Bg03,
   ContactSection,
   ContentDiv,
   CubesDiv,
   FormSpace,
+  ImagePropagSpace,
 } from "./styles";
 import "../../utils/i18n";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
@@ -17,6 +21,7 @@ import { GeneralContext } from "../../contexts/GeneralContext";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import DnaAnimation from "../Animations/DnaAnimation/DnaAnimation";
+// import cellphone from "../../assets/img/cellphone.gif";
 
 const ContactSpace = () => {
   const [animationValueContact, setAnimationValueContact] = useState();
@@ -56,6 +61,10 @@ const ContactSpace = () => {
     <>
       <ContactSection id="section-contactme">
         <DnaAnimation />
+        {/* <Bg01 />
+        <Bg02 />
+        <Bg03 /> */}
+
         <ContentDiv>
           <CubesDiv />
           <CubesDiv />
@@ -150,6 +159,17 @@ const ContactSpace = () => {
             </form>
           </FormSpace>
         </ContentDiv>
+        {/* <ImagePropagSpace>
+          <img src={cellphone} alt="cellphone" />
+          <img src={cellphone} alt="cellphone" />
+          <img src={cellphone} alt="cellphone" />
+          <img src={cellphone} alt="cellphone" />
+        </ImagePropagSpace> */}
+
+        {/* <DualGallery>
+            <img src={image01} alt="ref 01" />
+            <img src={image02} alt="ref 02" />  
+        </DualGallery> */}
       </ContactSection>
     </>
   );

@@ -219,7 +219,7 @@ export const StitchSpace = styled.div`
 
 export const FooterSection = styled.footer`
   width: 100vw;
-  height: 240vh;
+  height: 180vh;
   background: var(--color-navigation);
   position: relative;
   box-shadow: 0px -15px 10px 0px #ffde59;
